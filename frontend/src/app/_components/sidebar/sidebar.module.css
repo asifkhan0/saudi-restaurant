@@ -1,0 +1,58 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.bg {
+    position: fixed;
+    top: 0px;
+    left: 0rem;
+    bottom: 0;
+    width: 100%;
+    background: #E1D8CF;
+    z-index: 998;
+    clip-path: circle(26px at 123px 47px);
+
+    /* // @include mobile {
+    //     top: -15px;
+    //     left: -15px;
+    // } */
+}
+
+.links {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* background: white; */
+}
+
+.linkText {
+    font-size: 27px;
+}
+
+.togglerBtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 33px;
+    left: 97px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 999;
+
+    /* // @include mobile {
+    //     top: 11px;
+    //     left: 11px;
+    // } */
+}

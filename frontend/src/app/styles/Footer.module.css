@@ -1,0 +1,39 @@
+.footerMain {
+  background-image: url("../../../public/footerBg.jpg");
+  background-size: cover;
+}
+
+.footerContainer {
+}
+
+.borderRadius {
+  border-radius: 50%;
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
+}
+
+.socialBorder {
+  border: 1px solid #bf9444;
+  transition: 0.35s;
+  display: block;
+  font-size: 1.4rem;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.underline{
+  margin: 24px 0px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  align-items: center;
+  gap: 10px;
+}
+
+.underline::before, .underline::after{
+  content: "";
+  height: 1px;
+  width: 4rem;
+  display: block;
+  background-color: #B5932D;
+  /* background-color: #42312B; */
+}
